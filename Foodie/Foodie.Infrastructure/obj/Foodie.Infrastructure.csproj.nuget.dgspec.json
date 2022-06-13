@@ -4,6 +4,118 @@
     "C:\\Users\\osaho\\personal\\FoodApp\\FoodApi\\Foodie\\Foodie.Infrastructure\\Foodie.Infrastructure.csproj": {}
   },
   "projects": {
+    "C:\\Users\\osaho\\personal\\FoodApp\\FoodApi\\Foodie\\Foodie.Application\\Foodie.Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\osaho\\personal\\FoodApp\\FoodApi\\Foodie\\Foodie.Application\\Foodie.Application.csproj",
+        "projectName": "Foodie.Application",
+        "projectPath": "C:\\Users\\osaho\\personal\\FoodApp\\FoodApi\\Foodie\\Foodie.Application\\Foodie.Application.csproj",
+        "packagesPath": "C:\\Users\\osaho\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\osaho\\personal\\FoodApp\\FoodApi\\Foodie\\Foodie.Application\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\osaho\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\osaho\\personal\\FoodApp\\FoodApi\\Foodie\\Foodie.Domain\\Foodie.Domain.csproj": {
+                "projectPath": "C:\\Users\\osaho\\personal\\FoodApp\\FoodApi\\Foodie\\Foodie.Domain\\Foodie.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\osaho\\personal\\FoodApp\\FoodApi\\Foodie\\Foodie.Domain\\Foodie.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\osaho\\personal\\FoodApp\\FoodApi\\Foodie\\Foodie.Domain\\Foodie.Domain.csproj",
+        "projectName": "Foodie.Domain",
+        "projectPath": "C:\\Users\\osaho\\personal\\FoodApp\\FoodApi\\Foodie\\Foodie.Domain\\Foodie.Domain.csproj",
+        "packagesPath": "C:\\Users\\osaho\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\osaho\\personal\\FoodApp\\FoodApi\\Foodie\\Foodie.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\osaho\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
     "C:\\Users\\osaho\\personal\\FoodApp\\FoodApi\\Foodie\\Foodie.Infrastructure\\Foodie.Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
@@ -27,7 +139,11 @@
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
-            "projectReferences": {}
+            "projectReferences": {
+              "C:\\Users\\osaho\\personal\\FoodApp\\FoodApi\\Foodie\\Foodie.Application\\Foodie.Application.csproj": {
+                "projectPath": "C:\\Users\\osaho\\personal\\FoodApp\\FoodApi\\Foodie\\Foodie.Application\\Foodie.Application.csproj"
+              }
+            }
           }
         },
         "warningProperties": {

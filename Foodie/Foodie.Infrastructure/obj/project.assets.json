@@ -1,11 +1,48 @@
 {
   "version": 3,
   "targets": {
-    "net6.0": {}
+    "net6.0": {
+      "Foodie.Application/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "Foodie.Domain": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Foodie.Application.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Foodie.Application.dll": {}
+        }
+      },
+      "Foodie.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/Foodie.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Foodie.Domain.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "Foodie.Application/1.0.0": {
+      "type": "project",
+      "path": "../Foodie.Application/Foodie.Application.csproj",
+      "msbuildProject": "../Foodie.Application/Foodie.Application.csproj"
+    },
+    "Foodie.Domain/1.0.0": {
+      "type": "project",
+      "path": "../Foodie.Domain/Foodie.Domain.csproj",
+      "msbuildProject": "../Foodie.Domain/Foodie.Domain.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    "net6.0": []
+    "net6.0": [
+      "Foodie.Application >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\osaho\\.nuget\\packages\\": {}
@@ -33,7 +70,11 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\osaho\\personal\\FoodApp\\FoodApi\\Foodie\\Foodie.Application\\Foodie.Application.csproj": {
+              "projectPath": "C:\\Users\\osaho\\personal\\FoodApp\\FoodApi\\Foodie\\Foodie.Application\\Foodie.Application.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

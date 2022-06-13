@@ -29,3 +29,7 @@ C:\Users\osaho\personal\FoodApp\FoodApi\Foodie\Foodie.Api\bin\Debug\net6.0\Foodi
 C:\Users\osaho\personal\FoodApp\FoodApi\Foodie\Foodie.Api\bin\Debug\net6.0\Foodie.Contracts.dll
 C:\Users\osaho\personal\FoodApp\FoodApi\Foodie\Foodie.Api\bin\Debug\net6.0\Foodie.Contracts.pdb
 C:\Users\osaho\personal\FoodApp\FoodApi\Foodie\Foodie.Api\bin\Debug\net6.0\Foodie.Application.pdb
+C:\Users\osaho\personal\FoodApp\FoodApi\Foodie\Foodie.Api\bin\Debug\net6.0\Foodie.Domain.dll
+C:\Users\osaho\personal\FoodApp\FoodApi\Foodie\Foodie.Api\bin\Debug\net6.0\Foodie.Infrastructure.dll
+C:\Users\osaho\personal\FoodApp\FoodApi\Foodie\Foodie.Api\bin\Debug\net6.0\Foodie.Infrastructure.pdb
+C:\Users\osaho\personal\FoodApp\FoodApi\Foodie\Foodie.Api\bin\Debug\net6.0\Foodie.Domain.pdb

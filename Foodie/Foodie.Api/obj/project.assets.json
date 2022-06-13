@@ -76,6 +76,9 @@
       "Foodie.Application/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "Foodie.Domain": "1.0.0"
+        },
         "compile": {
           "bin/placeholder/Foodie.Application.dll": {}
         },
@@ -91,6 +94,29 @@
         },
         "runtime": {
           "bin/placeholder/Foodie.Contracts.dll": {}
+        }
+      },
+      "Foodie.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/Foodie.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Foodie.Domain.dll": {}
+        }
+      },
+      "Foodie.Infrastructure/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "Foodie.Application": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Foodie.Infrastructure.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Foodie.Infrastructure.dll": {}
         }
       }
     }
@@ -230,12 +256,23 @@
       "type": "project",
       "path": "../Foodie.Contracts/Foodie.Contracts.csproj",
       "msbuildProject": "../Foodie.Contracts/Foodie.Contracts.csproj"
+    },
+    "Foodie.Domain/1.0.0": {
+      "type": "project",
+      "path": "../Foodie.Domain/Foodie.Domain.csproj",
+      "msbuildProject": "../Foodie.Domain/Foodie.Domain.csproj"
+    },
+    "Foodie.Infrastructure/1.0.0": {
+      "type": "project",
+      "path": "../Foodie.Infrastructure/Foodie.Infrastructure.csproj",
+      "msbuildProject": "../Foodie.Infrastructure/Foodie.Infrastructure.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net6.0": [
       "Foodie.Application >= 1.0.0",
       "Foodie.Contracts >= 1.0.0",
+      "Foodie.Infrastructure >= 1.0.0",
       "Swashbuckle.AspNetCore >= 6.2.3"
     ]
   },
@@ -271,6 +308,9 @@
             },
             "C:\\Users\\osaho\\personal\\FoodApp\\FoodApi\\Foodie\\Foodie.Contracts\\Foodie.Contracts.csproj": {
               "projectPath": "C:\\Users\\osaho\\personal\\FoodApp\\FoodApi\\Foodie\\Foodie.Contracts\\Foodie.Contracts.csproj"
+            },
+            "C:\\Users\\osaho\\personal\\FoodApp\\FoodApi\\Foodie\\Foodie.Infrastructure\\Foodie.Infrastructure.csproj": {
+              "projectPath": "C:\\Users\\osaho\\personal\\FoodApp\\FoodApi\\Foodie\\Foodie.Infrastructure\\Foodie.Infrastructure.csproj"
             }
           }
         }

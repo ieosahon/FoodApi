@@ -7,14 +7,27 @@
   "targets": {
     ".NETCoreApp,Version=v6.0": {
       "Foodie.Application/1.0.0": {
+        "dependencies": {
+          "Foodie.Domain": "1.0.0"
+        },
         "runtime": {
           "Foodie.Application.dll": {}
+        }
+      },
+      "Foodie.Domain/1.0.0": {
+        "runtime": {
+          "Foodie.Domain.dll": {}
         }
       }
     }
   },
   "libraries": {
     "Foodie.Application/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Foodie.Domain/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

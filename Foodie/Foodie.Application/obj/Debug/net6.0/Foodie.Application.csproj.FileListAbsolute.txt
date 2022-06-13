@@ -10,3 +10,6 @@ C:\Users\osaho\personal\FoodApp\FoodApi\Foodie\Foodie.Application\obj\Debug\net6
 C:\Users\osaho\personal\FoodApp\FoodApi\Foodie\Foodie.Application\obj\Debug\net6.0\refint\Foodie.Application.dll
 C:\Users\osaho\personal\FoodApp\FoodApi\Foodie\Foodie.Application\obj\Debug\net6.0\Foodie.Application.pdb
 C:\Users\osaho\personal\FoodApp\FoodApi\Foodie\Foodie.Application\obj\Debug\net6.0\ref\Foodie.Application.dll
+C:\Users\osaho\personal\FoodApp\FoodApi\Foodie\Foodie.Application\bin\Debug\net6.0\Foodie.Domain.dll
+C:\Users\osaho\personal\FoodApp\FoodApi\Foodie\Foodie.Application\bin\Debug\net6.0\Foodie.Domain.pdb
+C:\Users\osaho\personal\FoodApp\FoodApi\Foodie\Foodie.Application\obj\Debug\net6.0\Foodie.Application.csproj.CopyComplete

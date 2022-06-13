@@ -10,6 +10,7 @@
         "dependencies": {
           "Foodie.Application": "1.0.0",
           "Foodie.Contracts": "1.0.0",
+          "Foodie.Infrastructure": "1.0.0",
           "Swashbuckle.AspNetCore": "6.2.3"
         },
         "runtime": {
@@ -64,6 +65,9 @@
         }
       },
       "Foodie.Application/1.0.0": {
+        "dependencies": {
+          "Foodie.Domain": "1.0.0"
+        },
         "runtime": {
           "Foodie.Application.dll": {}
         }
@@ -71,6 +75,19 @@
       "Foodie.Contracts/1.0.0": {
         "runtime": {
           "Foodie.Contracts.dll": {}
+        }
+      },
+      "Foodie.Domain/1.0.0": {
+        "runtime": {
+          "Foodie.Domain.dll": {}
+        }
+      },
+      "Foodie.Infrastructure/1.0.0": {
+        "dependencies": {
+          "Foodie.Application": "1.0.0"
+        },
+        "runtime": {
+          "Foodie.Infrastructure.dll": {}
         }
       }
     }
@@ -129,6 +146,16 @@
       "sha512": ""
     },
     "Foodie.Contracts/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Foodie.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Foodie.Infrastructure/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
