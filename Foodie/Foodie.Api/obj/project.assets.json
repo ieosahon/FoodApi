@@ -72,6 +72,26 @@
         "frameworkReferences": [
           "Microsoft.AspNetCore.App"
         ]
+      },
+      "Foodie.Application/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/Foodie.Application.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Foodie.Application.dll": {}
+        }
+      },
+      "Foodie.Contracts/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/Foodie.Contracts.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Foodie.Contracts.dll": {}
+        }
       }
     }
   },
@@ -200,10 +220,22 @@
         "swashbuckle.aspnetcore.swaggerui.6.2.3.nupkg.sha512",
         "swashbuckle.aspnetcore.swaggerui.nuspec"
       ]
+    },
+    "Foodie.Application/1.0.0": {
+      "type": "project",
+      "path": "../Foodie.Application/Foodie.Application.csproj",
+      "msbuildProject": "../Foodie.Application/Foodie.Application.csproj"
+    },
+    "Foodie.Contracts/1.0.0": {
+      "type": "project",
+      "path": "../Foodie.Contracts/Foodie.Contracts.csproj",
+      "msbuildProject": "../Foodie.Contracts/Foodie.Contracts.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net6.0": [
+      "Foodie.Application >= 1.0.0",
+      "Foodie.Contracts >= 1.0.0",
       "Swashbuckle.AspNetCore >= 6.2.3"
     ]
   },
@@ -233,7 +265,14 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\osaho\\personal\\FoodApp\\FoodApi\\Foodie\\Foodie.Application\\Foodie.Application.csproj": {
+              "projectPath": "C:\\Users\\osaho\\personal\\FoodApp\\FoodApi\\Foodie\\Foodie.Application\\Foodie.Application.csproj"
+            },
+            "C:\\Users\\osaho\\personal\\FoodApp\\FoodApi\\Foodie\\Foodie.Contracts\\Foodie.Contracts.csproj": {
+              "projectPath": "C:\\Users\\osaho\\personal\\FoodApp\\FoodApi\\Foodie\\Foodie.Contracts\\Foodie.Contracts.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
