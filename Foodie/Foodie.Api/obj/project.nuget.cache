@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "c3mAkneSgKXZStZmQ7MCpew5D038BZAD/6DrnOlAGQ/BixZizWLDkAVDo08GaZR/EqhRqW5OXzjNl0e0xOHsgA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\osaho\\personal\\FoodApp\\FoodApi\\Foodie\\Foodie.Api\\Foodie.Api.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\osaho\\.nuget\\packages\\microsoft.extensions.apidescription.server\\3.0.0\\microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
+    "C:\\Users\\osaho\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
+    "C:\\Users\\osaho\\.nuget\\packages\\swashbuckle.aspnetcore\\6.2.3\\swashbuckle.aspnetcore.6.2.3.nupkg.sha512",
+    "C:\\Users\\osaho\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.2.3\\swashbuckle.aspnetcore.swagger.6.2.3.nupkg.sha512",
+    "C:\\Users\\osaho\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\6.2.3\\swashbuckle.aspnetcore.swaggergen.6.2.3.nupkg.sha512",
+    "C:\\Users\\osaho\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\6.2.3\\swashbuckle.aspnetcore.swaggerui.6.2.3.nupkg.sha512"
+  ],
+  "logs": []
+}

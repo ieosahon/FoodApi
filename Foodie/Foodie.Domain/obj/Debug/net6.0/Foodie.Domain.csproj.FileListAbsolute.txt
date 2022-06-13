@@ -1,0 +1,12 @@
+C:\Users\osaho\personal\FoodApp\FoodApi\Foodie\Foodie.Domain\bin\Debug\net6.0\Foodie.Domain.deps.json
+C:\Users\osaho\personal\FoodApp\FoodApi\Foodie\Foodie.Domain\bin\Debug\net6.0\Foodie.Domain.dll
+C:\Users\osaho\personal\FoodApp\FoodApi\Foodie\Foodie.Domain\bin\Debug\net6.0\Foodie.Domain.pdb
+C:\Users\osaho\personal\FoodApp\FoodApi\Foodie\Foodie.Domain\obj\Debug\net6.0\Foodie.Domain.csproj.AssemblyReference.cache
+C:\Users\osaho\personal\FoodApp\FoodApi\Foodie\Foodie.Domain\obj\Debug\net6.0\Foodie.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\osaho\personal\FoodApp\FoodApi\Foodie\Foodie.Domain\obj\Debug\net6.0\Foodie.Domain.AssemblyInfoInputs.cache
+C:\Users\osaho\personal\FoodApp\FoodApi\Foodie\Foodie.Domain\obj\Debug\net6.0\Foodie.Domain.AssemblyInfo.cs
+C:\Users\osaho\personal\FoodApp\FoodApi\Foodie\Foodie.Domain\obj\Debug\net6.0\Foodie.Domain.csproj.CoreCompileInputs.cache
+C:\Users\osaho\personal\FoodApp\FoodApi\Foodie\Foodie.Domain\obj\Debug\net6.0\Foodie.Domain.dll
+C:\Users\osaho\personal\FoodApp\FoodApi\Foodie\Foodie.Domain\obj\Debug\net6.0\refint\Foodie.Domain.dll
+C:\Users\osaho\personal\FoodApp\FoodApi\Foodie\Foodie.Domain\obj\Debug\net6.0\Foodie.Domain.pdb
+C:\Users\osaho\personal\FoodApp\FoodApi\Foodie\Foodie.Domain\obj\Debug\net6.0\ref\Foodie.Domain.dll

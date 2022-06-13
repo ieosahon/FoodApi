@@ -1,0 +1,12 @@
+C:\Users\osaho\personal\FoodApp\FoodApi\Foodie\Foodie.Infrastructure\bin\Debug\net6.0\Foodie.Infrastructure.deps.json
+C:\Users\osaho\personal\FoodApp\FoodApi\Foodie\Foodie.Infrastructure\bin\Debug\net6.0\Foodie.Infrastructure.dll
+C:\Users\osaho\personal\FoodApp\FoodApi\Foodie\Foodie.Infrastructure\bin\Debug\net6.0\Foodie.Infrastructure.pdb
+C:\Users\osaho\personal\FoodApp\FoodApi\Foodie\Foodie.Infrastructure\obj\Debug\net6.0\Foodie.Infrastructure.csproj.AssemblyReference.cache
+C:\Users\osaho\personal\FoodApp\FoodApi\Foodie\Foodie.Infrastructure\obj\Debug\net6.0\Foodie.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\osaho\personal\FoodApp\FoodApi\Foodie\Foodie.Infrastructure\obj\Debug\net6.0\Foodie.Infrastructure.AssemblyInfoInputs.cache
+C:\Users\osaho\personal\FoodApp\FoodApi\Foodie\Foodie.Infrastructure\obj\Debug\net6.0\Foodie.Infrastructure.AssemblyInfo.cs
+C:\Users\osaho\personal\FoodApp\FoodApi\Foodie\Foodie.Infrastructure\obj\Debug\net6.0\Foodie.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\osaho\personal\FoodApp\FoodApi\Foodie\Foodie.Infrastructure\obj\Debug\net6.0\Foodie.Infrastructure.dll
+C:\Users\osaho\personal\FoodApp\FoodApi\Foodie\Foodie.Infrastructure\obj\Debug\net6.0\refint\Foodie.Infrastructure.dll
+C:\Users\osaho\personal\FoodApp\FoodApi\Foodie\Foodie.Infrastructure\obj\Debug\net6.0\Foodie.Infrastructure.pdb
+C:\Users\osaho\personal\FoodApp\FoodApi\Foodie\Foodie.Infrastructure\obj\Debug\net6.0\ref\Foodie.Infrastructure.dll
