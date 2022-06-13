@@ -1,6 +1,6 @@
-namespace Foodie.Contracts.Auth.AuthResponse
+namespace Foodie.Contracts.Auth.RegisterResponse
 {
-    public record AuthRes
+    public record RegisterRes
     (
         Guid Id,
         string FirstName,

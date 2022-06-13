@@ -1,6 +1,6 @@
 namespace Foodie.Contracts.Auth.AuthRequest
 {
-    public record RegRes
+    public record RegisterReq
     (
         string FirstName,
         string LastName,
