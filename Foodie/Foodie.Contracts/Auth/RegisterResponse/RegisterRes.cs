@@ -1,5 +1,5 @@
-namespace Foodie.Contracts.Auth.RegisterResponse
-{
+namespace Foodie.Foodie.Contracts.Auth.RegisterResponse;
+
     public record RegisterRes
     (
         Guid Id,
@@ -8,4 +8,3 @@ namespace Foodie.Contracts.Auth.RegisterResponse
         string Email,
         string Token
     );
-}

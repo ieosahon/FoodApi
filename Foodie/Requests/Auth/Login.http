@@ -1,0 +1,12 @@
+
+
+
+@host= https://localhost:7049
+
+POST {{host}}/auth/login
+Content-Type: application/json
+
+{
+    "email": "osahon@gmail.com",
+    "password": "osahon@"
+}

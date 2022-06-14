@@ -1,5 +1,5 @@
-namespace Foodie.Contracts.Auth.AuthRequest
-{
+namespace Foodie.Foodie.Contracts.Auth.AuthRequest;
+
     public record RegisterReq
     (
         string FirstName,
@@ -8,4 +8,3 @@ namespace Foodie.Contracts.Auth.AuthRequest
         string Password
     );
     
-}
