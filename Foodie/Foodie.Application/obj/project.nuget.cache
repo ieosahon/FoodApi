@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "KkaT6PsbmvDKKmVoUYhIjoErurIo+yX1qFMuu22TRDRF9SXZ1F15fYDZNWJvt6CsPkLoxfIGY8qttkKSDLvdZQ==",
+  "dgSpecHash": "SzAXWcwlMk3kldifd0WyAVHO9NJ/8xjtUJugSSv0+3dkOmb/GnUyiuDIBAQmj0fLjw3NDv+HhdqZTJGWPKeUCQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\osaho\\personal\\FoodApp\\FoodApi\\Foodie\\Foodie.Application\\Foodie.Application.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\osaho\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\6.0.0\\microsoft.extensions.dependencyinjection.abstractions.6.0.0.nupkg.sha512"
+  ],
   "logs": []
 }
