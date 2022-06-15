@@ -1,4 +1,5 @@
 using Foodie.Application.Services;
+using Foodie.Infrastructure.Common;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -8,6 +9,10 @@ var builder = WebApplication.CreateBuilder(args);
     builder.Services.AddControllers();
 
     builder.Services.AddApplicationService();
+
+    // to register your own services, add them to the container
+    
+    builder.Services.AddInfrastructure();
 }
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 // builder.Services.AddEndpointsApiExplorer();
