@@ -12,4 +12,8 @@
     <ProjectReference Include="..\Foodie.Application\Foodie.Application.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <PackageReference Include="System.IdentityModel.Tokens.Jwt" Version="6.19.0" />
+  </ItemGroup>
+
 </Project>
