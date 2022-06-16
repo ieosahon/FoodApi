@@ -5,26 +5,31 @@ using System.Security.Claims;
 using System.Text;
 using Foodie.Application.Common.Interfaces.Auth;
 using Foodie.Application.Common.Interfaces.Auth.Services;
+using Microsoft.Extensions.Options;
 //using Foodie.Application.Interfaces.Auth;
 using Microsoft.IdentityModel.Tokens;
 
 namespace Foodie.Infrastructure.Common.Implemetations.Auth
 {
     public class JwtTokenGen : IJwtTokenGen
-    {
+    {   
+        private readonly JwtSettings _jwtSettings;
+
         private readonly IDateTimeProvider _dateTimeProvider;
 
-        public JwtTokenGen(IDateTimeProvider dateTimeProvider)
+        public JwtTokenGen(IDateTimeProvider dateTimeProvider, IOptions<JwtSettings> jwtSettingsOptions)
         {
             _dateTimeProvider = dateTimeProvider;
+            _jwtSettings = jwtSettingsOptions.Value; // value which is returned from the IOptions<T>
         }
+      
 
         public string GenerateToken(Guid userId, string lastName, string firstName)
         {
             
               var signingCredentials = new SigningCredentials(
                 new SymmetricSecurityKey(
-                    Encoding.ASCII.GetBytes("super-secret-key")), 
+                    Encoding.ASCII.GetBytes(_jwtSettings.Secret)), 
                 SecurityAlgorithms.HmacSha256Signature);
              var claims = new[]
              {
@@ -36,9 +41,9 @@ namespace Foodie.Infrastructure.Common.Implemetations.Auth
             };
 
             var token = new JwtSecurityToken(
-                issuer: "Foodie",
-                //audience: "Foodie",
-                expires: _dateTimeProvider.GmtNow.AddMinutes(20),
+                issuer: _jwtSettings.Issuer,
+                audience: _jwtSettings.Audience,
+                expires: _dateTimeProvider.GmtNow.AddMinutes(_jwtSettings.ExpireDuration),
                 signingCredentials: signingCredentials,
                 claims: claims);
 
